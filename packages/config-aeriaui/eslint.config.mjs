@@ -3,13 +3,13 @@ import { FlatCompat } from '@eslint/eslintrc'
 import { deepMerge } from '@aeriajs/common'
 import parserVue from 'vue-eslint-parser'
 import parserTs from '@typescript-eslint/parser'
-import aeriaConfig from 'eslint-config-aeria'
+import { srcRules } from '@eslint-aeria/config'
 
 const eslintrc = new FlatCompat({
   baseDirectory: fileURLToPath(import.meta.resolve('.')),
 })
 
-const aeriaUiConfig = deepMerge(aeriaConfig, {
+const aeriaUiConfig = deepMerge(srcRules, {
   languageOptions: {
     parser: parserVue,
     parserOptions: {
