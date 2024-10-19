@@ -5,7 +5,6 @@
   "main": "index.js",
   "module": "esm/index.mjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rm -rf esm; swc *.js -d esm -C module.type=es6",
     "prepublishOnly": "pnpm build && eslint \\*.js"
   },
