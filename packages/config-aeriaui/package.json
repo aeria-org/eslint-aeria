@@ -1,0 +1,28 @@
+{
+  "name": "@eslint-config/config-ui",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "eslint ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "files": [
+    "index.mjs",
+    "eslint.config.mjs"
+  ],
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.0.2",
+    "eslint-config-aeria": "0.0",
+    "eslint-plugin-vue": "^9.22.0"
+  },
+  "peerDependencies": {
+    "@eslint/eslintrc": "^3.0.2",
+    "@aeriajs/common": "0.0",
+    "eslint-config-aeria": "0.0",
+    "eslint-plugin-vue": "^9.22.0"
+  }
+}
