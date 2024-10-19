@@ -1,5 +1,5 @@
 {
-  "name": "@eslint-config/config-ui",
+  "name": "@eslint-aeria/config-ui",
   "version": "0.0.0",
   "description": "",
   "main": "index.mjs",

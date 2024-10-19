@@ -172,7 +172,7 @@ const srcRules = {
       'error',
       {
         ObjectExpression: {
-          minProperties: 1,
+          multiline: true,
         },
         ExportDeclaration: 'always',
         ImportDeclaration: {

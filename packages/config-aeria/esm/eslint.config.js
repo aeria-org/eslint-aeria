@@ -180,7 +180,7 @@ var parserTs = require('@typescript-eslint/parser');
             'error',
             {
                 ObjectExpression: {
-                    minProperties: 1
+                    multiline: true
                 },
                 ExportDeclaration: 'always',
                 ImportDeclaration: {
