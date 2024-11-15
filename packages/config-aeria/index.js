@@ -118,7 +118,6 @@ const srcRules = {
     'ts/no-unnecessary-type-assertion': 'error',
     'ts/no-unnecessary-type-constraint': 'error',
     'ts/return-await': 'error',
-    'ts/space-infix-ops': 'error',
     'ts/type-annotation-spacing': [
       'error',
       {
@@ -192,6 +191,7 @@ const srcRules = {
       'error',
       'never',
     ],
+    'style/space-infix-ops': 'error',
   },
 }
 
