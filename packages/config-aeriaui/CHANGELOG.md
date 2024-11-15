@@ -1,5 +1,11 @@
 # @eslint-aeria/config-ui
 
+## 0.0.3
+
+### Patch Changes
+
+- 53a4479: Update deps and rules
+
 ## 0.0.2
 
 ### Patch Changes
