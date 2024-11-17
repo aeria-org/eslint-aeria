@@ -48,6 +48,7 @@ const srcRules = {
         destructuring: 'all',
       },
     ],
+    'space-infix-ops': 'error',
     'ts/await-thenable': 'error',
     'ts/consistent-type-assertions': [
       'error',
@@ -118,13 +119,6 @@ const srcRules = {
     'ts/no-unnecessary-type-assertion': 'error',
     'ts/no-unnecessary-type-constraint': 'error',
     'ts/return-await': 'error',
-    'ts/type-annotation-spacing': [
-      'error',
-      {
-        before: false,
-        after: true,
-      },
-    ],
     'style/brace-style': 'error',
     'style/comma-dangle': [
       'error',
@@ -191,7 +185,6 @@ const srcRules = {
       'error',
       'never',
     ],
-    'style/space-infix-ops': 'error',
   },
 }
 
@@ -292,6 +285,13 @@ const testRules = {
     'style/semi': [
       'error',
       'never',
+    ],
+    'style/type-annotation-spacing': [
+      'error',
+      {
+        before: false,
+        after: true,
+      },
     ],
   },
 }

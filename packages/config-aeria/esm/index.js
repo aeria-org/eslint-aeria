@@ -48,6 +48,7 @@ var parserTs = require('@typescript-eslint/parser');
                 destructuring: 'all'
             }
         ],
+        'space-infix-ops': 'error',
         'ts/await-thenable': 'error',
         'ts/consistent-type-assertions': [
             'error',
@@ -126,14 +127,6 @@ var parserTs = require('@typescript-eslint/parser');
         'ts/no-unnecessary-type-assertion': 'error',
         'ts/no-unnecessary-type-constraint': 'error',
         'ts/return-await': 'error',
-        'ts/space-infix-ops': 'error',
-        'ts/type-annotation-spacing': [
-            'error',
-            {
-                before: false,
-                after: true
-            }
-        ],
         'style/brace-style': 'error',
         'style/comma-dangle': [
             'error',
@@ -299,6 +292,13 @@ var testRules = {
         'style/semi': [
             'error',
             'never'
+        ],
+        'style/type-annotation-spacing': [
+            'error',
+            {
+                before: false,
+                after: true
+            }
         ]
     }
 };
