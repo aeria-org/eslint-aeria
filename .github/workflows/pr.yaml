@@ -23,7 +23,7 @@ jobs:
 
   dependabot:
     runs-on: ubuntu-latest
-    if: github.event.pull_request.user.login == 'dependabot[bot]' && github.repository == 'aeria-org/aeria'
+    if: github.event.pull_request.user.login == 'dependabot[bot]' && github.repository == 'aeria-org/eslint-aeria'
 
     steps:
       - name: Dependabot metadata
