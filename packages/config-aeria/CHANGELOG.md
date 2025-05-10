@@ -1,5 +1,11 @@
 # @eslint-aeria/config
 
+## 0.0.6
+
+### Patch Changes
+
+- 5ebb8b0: Update rules
+
 ## 0.0.5
 
 ### Patch Changes
