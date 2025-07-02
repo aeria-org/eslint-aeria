@@ -1,5 +1,11 @@
 # @eslint-aeria/config
 
+## 0.0.7
+
+### Patch Changes
+
+- dd16395: Update config
+
 ## 0.0.6
 
 ### Patch Changes
