@@ -1,5 +1,11 @@
 # @eslint-aeria/config
 
+## 0.0.8
+
+### Patch Changes
+
+- 02c6c0e: Update deps
+
 ## 0.0.7
 
 ### Patch Changes
