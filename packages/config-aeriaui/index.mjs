@@ -29,7 +29,7 @@ const aeriaUiConfig = deepMerge(srcRules, {
 
 export default [].concat(
   eslintrc.plugins('vue'),
-  eslintrc.extends('plugin:vue/vue3-recommended'),
+  eslintrc.extends('plugin:vue/recommended'),
   aeriaUiConfig,
   {
     rules: {
