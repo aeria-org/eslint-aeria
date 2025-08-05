@@ -16,7 +16,7 @@
   "devDependencies": {
     "@eslint/eslintrc": "^3.3.1",
     "eslint-config-aeria": "~0.0.31",
-    "eslint-plugin-vue": "^10.3.0"
+    "eslint-plugin-vue": "^10.4.0"
   },
   "peerDependencies": {
     "@aeriajs/common": "0.0",
