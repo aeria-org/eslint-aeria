@@ -13,6 +13,6 @@
     "@swc/cli": "^0.7.8",
     "@types/node": "^24.2.1",
     "husky": "^9.1.7",
-    "typescript": "^5.8.3"
+    "typescript": "^5.9.2"
   }
 }
