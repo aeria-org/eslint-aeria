@@ -7,7 +7,7 @@
     "postinstall": "husky"
   },
   "devDependencies": {
-    "@changesets/cli": "^2.29.5",
+    "@changesets/cli": "^2.29.6",
     "@commitlint/cli": "^19.5.0",
     "@commitlint/config-conventional": "^19.8.1",
     "@swc/cli": "^0.7.8",
