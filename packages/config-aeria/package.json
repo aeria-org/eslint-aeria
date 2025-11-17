@@ -24,7 +24,7 @@
   ],
   "devDependencies": {
     "@stylistic/eslint-plugin": "^5.5.0",
-    "@typescript-eslint/eslint-plugin": "^8.46.4"
+    "@typescript-eslint/eslint-plugin": "^8.47.0"
   },
   "peerDependencies": {
     "@stylistic/eslint-plugin": "^2.1.0",
