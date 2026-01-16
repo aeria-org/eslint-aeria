@@ -179,7 +179,7 @@ const srcRules = {
     'style/quotes': [
       'error',
       'single',
-      'avoid-escape',
+      { avoidEscape: true, },
     ],
     'style/semi': [
       'error',
