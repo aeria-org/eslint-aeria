@@ -1,5 +1,11 @@
 # @eslint-aeria/config
 
+## 0.0.9
+
+### Patch Changes
+
+- d57069b: Fix deprecated option
+
 ## 0.0.8
 
 ### Patch Changes
