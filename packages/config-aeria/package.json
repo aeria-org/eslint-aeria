@@ -23,7 +23,7 @@
     "eslint.config.js"
   ],
   "devDependencies": {
-    "@stylistic/eslint-plugin": "^5.7.0",
+    "@stylistic/eslint-plugin": "^5.7.1",
     "@typescript-eslint/eslint-plugin": "^8.54.0"
   },
   "peerDependencies": {
