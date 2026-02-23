@@ -14,7 +14,7 @@
     "eslint.config.mjs"
   ],
   "devDependencies": {
-    "@eslint/eslintrc": "^3.3.3",
+    "@eslint/eslintrc": "^3.3.4",
     "eslint-config-aeria": "~0.0.31",
     "eslint-plugin-vue": "^10.8.0"
   },
